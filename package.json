@@ -1,0 +1,24 @@
+{
+  "name": "blended-node4_lesson-1",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node src/scripts/generateProducts.js",
+    "get-products-by-min-price": "node src/scripts/getProductsByMinPrice.js",
+    "get-total-price": "node src/scripts/getTotalPrice.js",
+    "get-unique-categories": "node src/scripts/getUniqueCategories.js",
+    "modify-products": "node src/scripts/modifyProducts.js",
+    "group-products": "node src/scripts/groupProductsByCategories.js",
+    "create-products-files": "node src/scripts/createProductsFiles.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^9.7.0",
+    "eslint": "^9.26.0"
+  }
+}
